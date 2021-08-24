@@ -1,7 +1,4 @@
 /* Стилизация кнопки */
-.box {
-  margin: 30px;
-}
 
 .button {
   color: var(--white);
@@ -13,7 +10,6 @@
   text-align: center;
   border: none;
   border-radius: 8px;
-  margin: 0 10px;
   padding: 0 20px;
   max-width: 189px;
   width: 100%;
@@ -24,6 +20,7 @@
 .button:disabled {
   opacity: 0.5;
   cursor: default;
+  pointer-events: none;
 }
 
 .button--primary {
