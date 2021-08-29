@@ -45,7 +45,8 @@
 .histogram__item {
   margin-right: 1px;
   background-color: var(--blue);
-  width: 9%;
+  max-width: 9px;
+  flex-grow: 1;
 }
 
 
