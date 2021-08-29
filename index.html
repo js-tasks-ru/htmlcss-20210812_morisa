@@ -7,35 +7,53 @@
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./components/page/page.css">
   <link rel="stylesheet" href="./components/header/header.css">
+  <link rel="stylesheet" href="./components/logo/logo.css">
+  <link rel="stylesheet" href="./components/nav/nav.css">
+  <link rel="stylesheet" href="./components/preview/preview.css">
+  <link rel="stylesheet" href="./components/card/card.css">
   <link rel="stylesheet" href="./components/footer/footer.css">
 </head>
 
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="page__box">
-        <h1 class="header__title">Reusable component library</h1>
+<body class="page">
+  <header class="header">
+    <div class="page__box">
+      <div class="header__top-panel">
+        <a href="#" class="logo header__logo">
+          <div class="logo__square"></div>
+          <div class="logo__circle"></div>
+          <div class="logo__triangle-bottomleft"></div>
+        </a>
+        <nav class="nav header__nav">
+          <a href="#" class="nav__link">Components</a>
+          <a href="#" class="nav__link">About</a>
+          <a href="#" class="nav__link">Contact</a>
+        </nav>
       </div>
-    </header>
-    <main>
-      <div class="page__box">
-        <div class="preview">
-          <div class="card">
-          </div>
-        </div>
+      <h1 class="header__title">Reusable component library</h1>
+    </div>
+  </header>
+  <main class="main">
+    <div class="page__box">
+      <div class="preview">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
-    </main>
-    <footer class="footer">
-      <div class="page__box">
-        <h2 class="footer__title">About</h2>
-        <p class="footer__description">This project is a collection of professionally designed, pre-built, fully
-          responsive HTML snippets you can drop into
-          your projects. Get started by checking out our free preview components, or browsing the PNG previews in the
-          categories
-          you're most curious about.</p>
-      </div>
-    </footer>
-  </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="page__box">
+      <h2 class="footer__title">About</h2>
+      <p class="footer__description">This project is a collection of professionally designed, pre-built, fully
+        responsive HTML snippets you can drop into
+        your projects. Get started by checking out our free preview components, or browsing the PNG previews in the
+        categories
+        you're most curious about.</p>
+    </div>
+  </footer>
 </body>
 
 </html>

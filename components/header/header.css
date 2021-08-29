@@ -1,8 +1,16 @@
 .header {
-  background-color: #fff;
+  background-color: var(--white);
   font-family: 'Inter', sans-serif;
   padding: 25px 0 0;
 }
+
+.header__top-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 40px;
+}
+
 
 .header__title {
   color: var(--black);
