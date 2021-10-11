@@ -1,0 +1,10 @@
+.block {
+  height: 300px;
+  width: 300px;
+}
+
+.block__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
